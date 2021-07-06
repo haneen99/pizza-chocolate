@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:o;
+    box-sizing: border-box;
+
+}
+.container{
+    width:1000px;
+    height:fit-content;
+    margin:auto;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+header img {
+    margin-top: 30px;
+}
+.logo-space{
+    padding-right:10px;
+}
+header div h4{
+    position: absolute;
+    top:24px;
+    left:310px;
+font-family:"yellowtail";
+font-size:45px;
+}
+header div p{
+    position:absolute;
+    top:68px;
+    left:316px;
+    font-size:10px;
+    color:aquamarine
+    font-family:'work sans',sans-serif;
+    font-weight:blod
+}
+main{
+    margin-top:120px;
+}
+main h5{
+    font-size:12px;
+    color:aquamarine
+    font-family:"work sans",sans-serif;
+    text-transform:uppercase;
+    margin-top:8px;
+}
+.cont-main img{
+    margin: left 72px;
+    width:13px;
+    height:13px;
+}
+.cont-main span{
+    text-transform:uppercase;
+    color:aquamarine;
+    font-size:13px;
+    font-family:'work sans',sans-serif;
+}
+main .big-imge{
+    width: 100px;
+    margin-top:30px;
+}
+main p{
+    margin-top:30px;
+    line-height:1.5;
+    text-indent:25px;
+    color:blueviolet
+    font-weight:700;
+}
+main .list-img{
+    width: 100px;
+    margin-top:30px;
+}
+.check-list{
+    display:flex;
+    justify-content:space-around;
+    padding-top:20px;
+    background-image:url("../images/list-bg.png");
+}
+from label{
+    font-size:22px;
+    color:grey;
+    font-family:'patrick hand',cursive;
+}
+ul li{
+    padding-bottom:9px;
+}
+input[type='checkbox']:checked+label{
+    text-decoration:line-through;
+}
+main hr{
+    margin-top:50px;
+    background-image:url("../images/hr-img.png");
+    width: 66px;
+    height: 12px;
+    position:absolute;
+    border:none;
+}
+.about img{
+    width:100px;
+    height:100px;
+}
+.about div p{
+    text: indent 0;
+    font-weight: 500;
+    position:absolute;
+    left:120px;
+    color:lightslategrey;
+    padding-top:5px;
+}
+button{
+    background-color:magenta;
+    color:white;
+    margin-bottom:40px;
+    padding:0 30px;
+    font: size 18px;
+}
